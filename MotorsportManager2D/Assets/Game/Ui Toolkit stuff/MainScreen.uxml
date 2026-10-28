@@ -1,0 +1,40 @@
+
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MainScreen.uss" />
+
+    <ui:VisualElement name="main-container" class="main-container">
+
+        <ui:VisualElement class="top-bar">
+            <ui:Label text="MOTORSPORT" class="logo" />
+            <ui:Label text="MANAGER" class="logo-accent" />
+            <ui:VisualElement class="top-spacer" />
+            <ui:Label text="TEAM MANAGEMENT" class="top-label" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="hero">
+            <ui:Label text="BUILD YOUR LEGACY" class="eyebrow" />
+            <ui:Label text="YOUR TEAM." class="hero-title" />
+            <ui:Label text="YOUR STRATEGY." class="hero-title accent-text" />
+            <ui:Label text="YOUR CHAMPIONSHIP." class="hero-title" />
+
+            <ui:Label
+                text="Sign the talent. Build the car. Make history."
+                class="subtitle" />
+
+            <ui:VisualElement class="button-row">
+                <ui:Button name="new-game-button"
+                    text="NEW GAME  →"
+                    class="primary-button" />
+                <ui:Button name="load-game-button"
+                    text="LOAD GAME"
+                    class="secondary-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="bottom-bar">
+            <ui:Label text="EVERY DECISION COUNTS." class="bottom-text" />
+            <ui:Label text="SEASON 2026" class="season-label" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>
